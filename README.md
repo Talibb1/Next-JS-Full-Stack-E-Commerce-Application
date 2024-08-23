@@ -1,6 +1,4 @@
-Full Video on YouTube [CodeCraftMERN](https://youtu.be/0A_tPdRdkDw)
-
-# Canim eCommerce
+#E-Commerce
 
 > Discover a seamless shopping experience at our e-commerce haven. Browse an extensive selection of products from top brands, enjoy secure transactions, and relish swift deliveries. Elevate your online shopping journey with user-friendly navigation and exclusive deals. Shop effortlessly, anytime, anywhere, and redefine convenience with our digital marketplace.
 
@@ -8,7 +6,7 @@ Full Video on YouTube [CodeCraftMERN](https://youtu.be/0A_tPdRdkDw)
 
 Explore curated deals and trending products on our inviting e-commerce homepage. Instantly find what you need for a delightful shopping experience.
 
-![Canim-ecommerce](./Canim-ecommerce.png)
+![E-commerce](./E-commerce.png)
 
 ## Features
 
@@ -50,7 +48,7 @@ Explore curated deals and trending products on our inviting e-commerce homepage.
 
 ## Tech Stack
 
-- Framework: `Next.Js 13 App Directory`
+- Framework: `Next.Js 14 App Directory`
 - State Container: `Redux Toolkit`
 - Styling: `Tailwind CSS`
 - Icons: `React Icons`
@@ -86,8 +84,8 @@ Explore curated deals and trending products on our inviting e-commerce homepage.
 You can use any package manager like `npm` or `yarn`
 
 ```bash
-git clone https://github.com/devhasibulislam/Canim-ecommerce.git
-cd Canim-ecommerce
+git clone https://github.com/Talibb1/Next-JS-Full-Stack-E-Commerce-Application.git
+cd E-commerce
 
 cd client
 yarn install
@@ -105,45 +103,6 @@ yarn install
 ```bash
 NEXT_PUBLIC_BASE_URL="http://localhost:8080/api"
 ```
-
-### Server Side
-
-```bash
-# Port number
-PORT=8080
-
-# Origin URL
-ORIGIN_URL="http://localhost:3000"
-
-# MongoDB Atlas URI
-DB_Name="Canim-template"
-ATLAS_URI="YOUR_MONGODB_ATLAS_URI"
-
-# JWT secret
-TOKEN_SECRET="JWT_TOKEN"
-
-# Cloudinary credentials
-CLOUD_NAME="CLOUDINARY_CLOUD_NAME"
-API_KEY="CLOUDINARY_API_KEY"
-API_SECRET="CLOUDINARY_API_SECRET"
-
-# Stripe Payment Credentials
-STRIPE_PUBLISHABLE_KEY="YOUR_STRIPE_PUBLISHABLE_KEY"
-STRIPE_SECRET_KEY="YOUR_STRIPE_SECRET_KEY"
-```
-# Access
-- Buyer `demo@example.com` & `Demo@123`
-- Seller `devhasibulislam@gmail.com` & `Hasib@123`
-- Admin `admin@example.com` & `Admin@123` => `don't create any occurrence :(`
-
-# Important Links
-
-- [x] `Client Side` Live Link: [Click Here](https://Canim-csr.vercel.app/)
-- [x] `Server Side` Live Link: [Click Here](https://Canim-ssr.vercel.app/)
-- [x] `Dashboard Reference` Link: [Click Here](https://loopinfosol.in/themeforest/ekka-html-v33/ekka-admin/index.html)
-- [x] `Reference Site` Live Link: [Click Here](https://chisnghiax.com/ciseco/)
-
 # Author
 
-- Developer: [Talib Uddin](https://bento.me/devhasibulislam)
-
+- Developer: [Talib Uddin](https://my-portfolio-talibs-projects-20e9aed6.vercel.app/)

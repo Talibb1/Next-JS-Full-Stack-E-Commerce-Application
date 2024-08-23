@@ -1,8 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { CanimApi } from "../services/Canim";
+import { canimApi } from "../services/Canim";
 import { setupListeners } from "@reduxjs/toolkit/query";
 import authSlice from "@/features/auth/authSlice";
-import productFilterSlice from "@/features/productFilter/productFilterSlice";
 import brandSlice from "@/features/brand/brandSlice";
 import productSlice from "@/features/product/productSlice";
 import categorySlice from "@/features/category/categorySlice";
@@ -14,7 +13,7 @@ import filterSlice from "@/features/filter/filterSlice";
 
 export const store = configureStore({
   reducer: {
-    [CanimApi.reducerPath]: CanimApi.reducer,
+    [canimApi.reducerPath]: canimApi.reducer,
     auth: authSlice,
     brand: brandSlice,
     category: categorySlice,
@@ -27,7 +26,7 @@ export const store = configureStore({
     // productFilter: productFilterSlice,
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(CanimApi.middleware),
+    getDefaultMiddleware().concat(canimApi.middleware),
   devTools: process.env.NODE_ENV !== "production",
 });
 

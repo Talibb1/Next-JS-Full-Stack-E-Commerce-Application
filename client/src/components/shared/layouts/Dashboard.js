@@ -300,7 +300,7 @@ const Dashboard = ({ children }) => {
 
         <footer className="border px-4 py-2 rounded flex justify-center items-center flex-row">
           <p className="text-xs">
-            © {new Date().getFullYear()} Canim. All rights reserved.
+            © {new Date().getFullYear()} E-commerce. All rights reserved.
           </p>
         </footer>
       </section>

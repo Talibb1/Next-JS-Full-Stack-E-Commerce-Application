@@ -12,7 +12,7 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/devhasibulislam/ciseco-ecommerce",
+  "repository": "https://github.com/Talibb1/Next-JS-Full-Stack-E-Commerce-Application",
   "author": "Talib Uddin",
   "license": "MIT",
   "private": true,

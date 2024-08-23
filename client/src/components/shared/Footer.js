@@ -156,7 +156,7 @@ const Footer = () => {
           ))}
         </div>
         <hr />
-        <p className="text-center">&copy; {year} Canim. All rights reserved.</p>
+        <p className="text-center">&copy; {year} E-commerce. All rights reserved.</p>
       </div>
     </footer>
   );
