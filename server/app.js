@@ -13,12 +13,14 @@ const app = express();
 /* middleware connections */
 app.use(
   cors({
-    origin: process.env.ORIGIN_URL,
+    // origin: process.env.ORIGIN_URL,
+    origin: "https://next-js-full-stack-e-commerce-application.vercel.app",
     methods: "GET, PATCH, POST, DELETE",
     preflightContinue: false,
     optionsSuccessStatus: 204,
   })
 );
+
 app.use(express.json());
 
 /* router level connections */
