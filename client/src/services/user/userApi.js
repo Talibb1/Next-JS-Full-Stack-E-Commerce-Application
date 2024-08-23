@@ -1,7 +1,7 @@
 
-const { CanimApi } = require("../Canim");
+const { canimApi } = require("../canim");
 
-const userApi = CanimApi.injectEndpoints({
+const userApi = canimApi.injectEndpoints({
   endpoints: (builder) => ({
     // get all users
     getUsers: builder.query({

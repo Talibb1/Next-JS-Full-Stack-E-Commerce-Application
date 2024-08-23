@@ -1,7 +1,7 @@
 
-const { CanimApi } = require("../Canim");
+const { canimApi } = require("../canim");
 
-const purchaseApi = CanimApi.injectEndpoints({
+const purchaseApi = canimApi.injectEndpoints({
   endpoints: (build) => ({
     getAllPurchases: build.query({
       query: () => ({

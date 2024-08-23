@@ -1,7 +1,7 @@
 
-const { CanimApi } = require("../Canim");
+const { canimApi } = require("../canim");
 
-const authApi = CanimApi.injectEndpoints({
+const authApi = canimApi.injectEndpoints({
   endpoints: (builder) => ({
     // signUp
     signUp: builder.mutation({

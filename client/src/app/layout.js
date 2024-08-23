@@ -7,11 +7,11 @@ export const metadata = {
   metadataBase: new URL("https://next-js-full-stack-e-commerce-application-axgep97np.vercel.app/"),
   title: "Shop & eCommerce React Template",
   description:
-    "Buy Shop & eCommerce Next.Js Template by Talib Uddin. Shop & eCommerce React Template - a responsive React template. E-commerce is built with the latest Next.Js 13 App Directory",
+    "Buy Shop & eCommerce Next.Js Template by Talib Uddin. Shop & eCommerce React Template - a responsive React template. E-commerce is built with the latest Next.Js 14 App Directory",
   openGraph: {
     title: "Shop & eCommerce React Template",
     description:
-      "Buy Shop & eCommerce Next.Js Template by Talib Uddin. Shop & eCommerce React Template - a responsive React template. E-commerce is built with the latest Next.Js 13 App Directory",
+      "Buy Shop & eCommerce Next.Js Template by Talib Uddin. Shop & eCommerce React Template - a responsive React template. E-commerce is built with the latest Next.Js 14 App Directory",
     url: "https://next-js-full-stack-e-commerce-application-axgep97np.vercel.app/",
     siteName: "Template",
     locale: "en_US",
@@ -22,7 +22,7 @@ export const metadata = {
     site: "@talibuddin",
     title: "Shop & eCommerce React Template",
     description:
-      "Buy Shop & eCommerce Next.Js Template by Talib Uddin. Shop & eCommerce React Template - a responsive React template. E-commerce is built with the latest Next.Js 13 App Directory"
+      "Buy Shop & eCommerce Next.Js Template by Talib Uddin. Shop & eCommerce React Template - a responsive React template. E-commerce is built with the latest Next.Js 14 App Directory"
   },
 };
 

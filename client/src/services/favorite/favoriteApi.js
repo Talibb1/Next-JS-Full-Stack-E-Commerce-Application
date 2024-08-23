@@ -1,8 +1,8 @@
 
 
-const { CanimApi } = require("../Canim");
+const { canimApi } = require("../canim");
 
-const favoriteApi = CanimApi.injectEndpoints({
+const favoriteApi = canimApi.injectEndpoints({
   endpoints: (build) => ({
     addToFavorite: build.mutation({
       query: (body) => ({

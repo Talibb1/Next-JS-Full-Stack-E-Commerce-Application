@@ -1,12 +1,6 @@
-#E-Commerce
-
-> Discover a seamless shopping experience at our e-commerce haven. Browse an extensive selection of products from top brands, enjoy secure transactions, and relish swift deliveries. Elevate your online shopping journey with user-friendly navigation and exclusive deals. Shop effortlessly, anytime, anywhere, and redefine convenience with our digital marketplace.
-
 ## Overview
 
 Explore curated deals and trending products on our inviting e-commerce homepage. Instantly find what you need for a delightful shopping experience.
-
-![E-commerce](./E-commerce.png)
 
 ## Features
 
