@@ -32,9 +32,10 @@ exports.createPayment = async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items: lineItems,
     mode: "payment",
-    success_url: `${"https://next-js-full-stack-e-commerce-application.vercel.app"}`,
-    cancel_url: `${"https://next-js-full-stack-e-commerce-application.vercel.app"}`,
+    success_url: `${process.env.ORIGIN_URL}`,
+    cancel_url: `${process.env.ORIGIN_URL}`,
   });
+  console.log(process.env.ORIGIN_URl)
 
   // create purchase for user
   const purchase = await Purchase.create({

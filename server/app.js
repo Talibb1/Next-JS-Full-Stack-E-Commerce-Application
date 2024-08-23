@@ -14,7 +14,7 @@ const app = express();
 app.use(
   cors({
     // origin: process.env.ORIGIN_URL,
-    origin: "https://next-js-full-stack-e-commerce-application.vercel.app",
+    origin: ["https://next-js-full-stack-e-commerce-application.vercel.app", "http://localhost:3000"],
     methods: "GET, PATCH, POST, DELETE",
     preflightContinue: false,
     optionsSuccessStatus: 204,
