@@ -2,21 +2,20 @@
 FROM node:18-alpine
 
 # Set working directory
-WORKDIR /app
+WORKDIR /src/app
 
-# Copy dependency files
-COPY server/package.json ./
-COPY server/package-lock.json ./
+# Copy package.json and package-lock.json to install dependencies first (cache step)
+COPY exp-backend/package.json ./ 
+COPY exp-backend/package-lock.json ./
 
 # Install dependencies
 RUN npm install
 
 # Copy the rest of the application code
-COPY server .
+COPY exp-backend .
 
 # Expose the port your app runs on
-EXPOSE 8080
+EXPOSE 8000
 
 # Start the app
-CMD ["npm", "run", "dev"]
-
+CMD ["npm", "run", "start"]
